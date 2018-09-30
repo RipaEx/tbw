@@ -2,7 +2,7 @@
     "ark": {
         "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
         "port": 4001,
-        "version": "1.0.3",
+        "version": "1.1.0",
 		 "db": "ark_mainnet",
         "db_user": "null",
         "db_pw": "password",
@@ -20,7 +20,7 @@
     "kapu": {
         "nethash": "313ea34c8eb705f79e7bc298b788417ff3f7116c9596f5c9875e769ee2f4ede1",
         "port": 9700,
-        "version": "0.3.0",
+        "version": "1.0.4",
 		 "db": "kapu_mainnet",
         "db_user": "null",
         "db_pw": "password",
@@ -29,7 +29,7 @@
     "dkapu": {
         "nethash": "f1ef11be7a879671b3019a785c9a2c9dbd9d800b05644d26ad132275ffe2dd48",
         "port": 4100,
-        "version": "0.0.1",
+        "version": "1.1.0",
 		 "db": "kapu_devnet",
         "db_user": "null",
         "db_pw": "password",
@@ -47,7 +47,7 @@
     "lwf": {
         "nethash": "704f232786a9bff25d0630c06abbc34957448ba6309d6dcef949cf9a6f43954a",
         "port": 18124,
-        "version": "0.1.4",
+        "version": "0.1.5",
 		 "db": "lwf_mainnet",
         "db_user": "lwf",
         "db_pw": "password",
@@ -119,7 +119,7 @@
 	"shift": {
         "nethash": "7337a324ef27e1e234d1e9018cacff7d4f299a09c2df9be460543b8f7ef652f1",
         "port": 9305,
-        "version": "6.7.0",
+        "version": "6.8.2",
         "db": "shift_db",
         "db_user": "shift",
         "db_pw": "testing",
@@ -157,6 +157,15 @@
         "port": 4111,
         "version": "0.0.1",
         "db": "test_swapblocks",
+        "db_user": "null",
+        "db_pw": "password",
+        "tx_fee": 0.1
+    },
+	"swapblocks": {
+        "nethash": "d21f07a10a8314d558132de8a3848e6fa9edde754638d1aacd381c6efb8be81d",
+        "port": 4100,
+        "version": "0.0.1",
+        "db": "swapblocks",
         "db_user": "null",
         "db_pw": "password",
         "tx_fee": 0.1
